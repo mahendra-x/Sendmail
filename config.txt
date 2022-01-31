@@ -1,0 +1,16 @@
+SMTP_HOST = smtp.mailtrap.io
+SMTP_PORT = 2525
+SMTP_EMAIL = 148e3dc3ef0dbf
+SMTP_PASSWORD = aea3224b308e43
+SMTP_FROM_EMAIL= noreply@custom.com
+SMTP_FROM_NAME = Custom
+
+
+var transport = nodemailer.createTransport({
+  host: "smtp.mailtrap.io",
+  port: 2525,
+  auth: {
+    user: "148e3dc3ef0dbf",
+    pass: "aea3224b308e43"
+  }
+});
